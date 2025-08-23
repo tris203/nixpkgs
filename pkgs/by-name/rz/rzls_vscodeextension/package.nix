@@ -39,6 +39,7 @@ buildDotnetModule {
     "-p:EnableWindowsTargeting=false"
     "-p:PublishReadyToRun=false"
     "-p:NetVSCode=net9.0"
+    "-p:DotNetUseShippingVersions=true"
   ];
 
   dotnetInstallFlags = [
